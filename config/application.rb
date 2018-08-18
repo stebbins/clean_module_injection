@@ -17,3 +17,5 @@ module CleanModuleInjection
     # the framework and any gems in your application.
   end
 end
+
+$LOAD_PATH.unshift("#{Rails.root}/lib/patches")
